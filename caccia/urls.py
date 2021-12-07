@@ -20,4 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path("inventory/", include('inv.urls')),
     path("score/", include('hints.urls')),
+    path("bot/", csrf_exempt(views.webhook.as_view())),
 ]
