@@ -5,7 +5,7 @@ from queue import Queue
 from telegram import Bot
 from telegram.ext import CommandHandler, CallbackQueryHandler, MessageHandler, Filters
 import threading
-from bot_site.settings import DEBUG, SITE_ADDRESS
+from caccia.settings import DEBUG, SITE_ADDRESS
 import requests
 from .models import Bot_Table
 from .TeamHandling import cap_queue_callback

@@ -3,7 +3,7 @@ import sys
 import logging
 from .bot_config import bot_config
 from telegram import Bot as telegramBot
-from bot_site.settings import DEBUG
+from caccia.settings import DEBUG
 
 
 class adminHandler(logging.Handler):

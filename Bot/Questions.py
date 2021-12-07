@@ -10,7 +10,7 @@ from .models import Captain, Hunter, Bot_Table, Queue
 from emoji import emojize
 import random
 from .TeamHandling import create_nodes, handle_queue
-from bot_site.settings import DEBUG
+from caccia.settings import DEBUG
 from django.db.models import Count
 from .utils import info_summary
 import logging

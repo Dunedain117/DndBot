@@ -1,7 +1,7 @@
 from telegram.ext import MessageHandler, Filters, ConversationHandler, CommandHandler
 from .Questions import Accept, Phone, Name, Surname, Age, Uni, Time, Perc, Grouping, end_conversation, cancel, question_list
 from .models import Key, Hunter, Bot_Table
-from bot_site.settings import DEBUG
+from caccia.settings import DEBUG
 from .utils import info_summary
 import logging
 
